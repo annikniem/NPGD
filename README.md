@@ -1,9 +1,9 @@
 # Neural Proximal Gradient Descent (NPGD) for Accelerated MRI reconstruction
 In this repository you can find a PyTorch implementation of the NPGS algorithm. 
-NPGD is a method for solving the ill-posed inverse problem of recovering images from highly compressed measurements. 
+NPGD is a method for solving the ill-posed linear inverse problem of recovering images from highly compressed measurements. 
 The algorithm is based on deep learning with embedded signal priors. The model architecture consists of several
 unfolded layers, where each layer consists of a gradient step and a proximal step. 
-NPGD can be used to achieve near-state-of-the-art results in accelerated MRI reconstruction. [1]
+NPGD can be used to achieve near state-of-the-art results in accelerated MRI reconstruction. [1]
 
 ## Repository contents
 This repository contains the following:
